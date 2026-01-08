@@ -25,6 +25,12 @@
       font-weight: bold;
     }
 
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1rem;
+  }
+}
+
     .LogS {
        display: flex;
        align-items: center;
