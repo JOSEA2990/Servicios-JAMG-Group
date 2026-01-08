@@ -12,7 +12,7 @@
     header {
       background: #1f2933;
       color: #fff;
-      padding: 1rem 2rem;
+      padding: 0.5rem 2rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -25,33 +25,81 @@
       font-weight: bold;
     }
 
-    .hero {
-      background: linear-gradient(to right, #2563eb, #1e40af);
-      color: white;
-      padding: 4rem 2rem;
-      text-align: center;
+    .LogS {
+       display: flex;
+       align-items: center;
+       gap: 0.5rem;
     }
 
-    .hero h1 {
-      font-size: 2.2rem;
-      margin-bottom: 1rem;
+    .LogS img {
+       height:4rem;
+       width: auto;
     }
 
-    .hero p {
-      font-size: 1.1rem;
-      margin-bottom: 2rem;
-    }
+.hero {
+  min-height: 85vh;
+  background: linear-gradient(
+      rgba(31, 41, 51, 0.85),
+      rgba(31, 41, 51, 0.85)
+    ),
+    url("/20.IMAG/ImagenPrincipal.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 2rem;
+}
 
-    .hero button {
-      background: white;
-      color: #1e40af;
-      border: none;
-      padding: 0.8rem 1.5rem;
-      font-size: 1rem;
-      cursor: pointer;
-      margin: 0 0.5rem;
-      border-radius: 5px;
-    }
+.hero-content {
+  max-width: 800px;
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.15rem;
+  margin-bottom: 2rem;
+  color: #e5e7eb;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  background: #2563eb;
+  color: #fff;
+  padding: 0.9rem 1.8rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #fff;
+  padding: 0.9rem 1.8rem;
+  border-radius: 6px;
+  text-decoration: none;
+  border: 2px solid #fff;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}
 
     section {
       padding: 3rem 2rem;
