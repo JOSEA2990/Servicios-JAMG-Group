@@ -15,8 +15,22 @@ header {
 
 header a {
   color: #fff;
-  margin-left: 1rem;
+  margin-left: 2rem;
   text-decoration: none;
+}
+
+@media (max-width: 725px) {
+  nav{
+    background-color: rgba(59, 57, 56, 0.85);
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+  }
 }
 
 .hero {
