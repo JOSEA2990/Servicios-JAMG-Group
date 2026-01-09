@@ -37,7 +37,6 @@
     }
 
 @media (max-width: 725px) {
-
   nav{
     background-color: rgba(57, 64, 71, 0.85);
     width: 150px;
@@ -47,8 +46,6 @@
     font-size: 1rem;
     margin-right: 0.5rem;
   }
-
-
 }
 
 .hero {
