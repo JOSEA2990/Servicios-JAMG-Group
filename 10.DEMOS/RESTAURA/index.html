@@ -7,42 +7,74 @@
     <link rel="stylesheet" href="Style1.css">
 </head>
 <body>
-    <header class="header">
-    <h1>El Buen Sabor</h1>
-    <nav>
-    <a href="#nosotros">Nosotros</a>
-    <a href="#menu">Menú</a>
-    <a href="#contacto">Contacto</a>
+     <header class="header">
+    <div class="logo">El Buen Sabor</div>
+    <nav class="nav">
+      <a href="#about">Nosotros</a>
+      <a href="#menu">Menú</a>
+      <a href="#gallery">Galería</a>
+      <a href="#book">Reservas</a>
     </nav>
-    </header>
+  </header>
 
-    <section class="hero">
-    <h2>Comida casera con el mejor sabor</h2>
-    <p>Platos preparados con ingredientes frescos</p>
-    </section>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Comida Casera con Sabor Auténtico</h1>
+      <p>Disfruta platos tradicionales preparados con ingredientes frescos.</p>
+      <a href="#menu" class="btn-primary">Ver Menú</a>
+    </div>
+  </section>
 
-    <section id="nosotros">
-    <h2>Sobre Nosotros</h2>
-    <p>Somos un restaurante familiar con más de 10 años ofreciendo comida deliciosa.</p>
-    </section>
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2>Quiénes Somos</h2>
+    <p>Somos un restaurante familiar con años de experiencia ofreciendo platos tradicionales que se sienten como en casa. Nuestra pasión es brindar buena comida y un ambiente acogedor.</p>
+  </section>
 
-    <section id="menu">
+  <!-- MENU -->
+  <section id="menu" class="section bg-light">
     <h2>Menú Destacado</h2>
-    <ul>
-    <li>Pollo asado</li>
-    <li>Arroz con mariscos</li>
-    <li>Hamburguesa artesanal</li>
-    </ul>
-    </section>
+    <div class="menu-grid">
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" alt="Pollo Asado" />
+        <h3>Pollo Asado</h3>
+        <p>Pollo jugoso marinado con especias especiales.</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="Hamburguesa" />
+        <h3>Hamburguesa Artesanal</h3>
+        <p>Carne premium con ingredientes frescos.</p>
+      </div>
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="Pasta" />
+        <h3>Pasta Especial</h3>
+        <p>Receta tradicional con salsa de la casa.</p>
+      </div>
+    </div>
+  </section>
 
-    <section id="contacto">
-    <h2>Contacto</h2>
-    <p>📍 Panamá</p>
-    <p>📞 WhatsApp: 6000-0000</p>
-    </section>
+  <!-- GALLERY -->
+  <section id="gallery" class="section">
+    <h2>Galería</h2>
+    <div class="gallery-grid">
+      <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de" alt="Restaurante" />
+      <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1" alt="Plato" />
+      <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4" alt="Ambiente" />
+    </div>
+  </section>
 
-    <footer>
+  <!-- RESERVA -->
+  <section id="book" class="section bg-dark">
+    <h2>Reserva tu Mesa</h2>
+    <p>📍 Ciudad de Panamá &nbsp; | &nbsp; 📞 6000-0000</p>
+    <a href="https://wa.me/50760000000" class="btn-primary">Reservar por WhatsApp</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
     <p>© 2026 El Buen Sabor</p>
-    </footer>
+    <p>Demo creado por Tu Primera Página Web</p>
+  </footer>
 </body>
 </html>
